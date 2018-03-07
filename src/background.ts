@@ -16,8 +16,8 @@ const listenUrl = (winId: number, tabId: number, url: string) => {
   }
 };
 
-const discardUrl = (winId: number) => {
-  taskInfos = taskInfos.filter(info => info.winId !== winId);
+const discardUrl = (winId: number, tabId: number) => {
+  taskInfos = taskInfos.filter(info => info.winId !== winId && info.tabId !== tabId);
 };
 
 chrome.runtime.onInstalled.addListener(function() {
@@ -30,7 +30,7 @@ chrome.runtime.onInstalled.addListener(function() {
         listenUrl(winId, tabId!, url);
         return;
       }
-      discardUrl(winId);
+      discardUrl(winId, tabId!);
     }
   });
 });
