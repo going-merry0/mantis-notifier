@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+
+    "module": "commonjs",
+    "sourceMap": true,
+    "target": "es2016"
+  }
+}
