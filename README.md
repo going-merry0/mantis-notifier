@@ -10,4 +10,4 @@
 
 关于提示的策略将在未来的使用中稍加优化。
 
-<img src="http://og9g58alt.bkt.clouddn.com/WX20180308-013614@2x.png" width="500">
+<img src="http://og9g58alt.bkt.clouddn.com/1111.png" width="600">
